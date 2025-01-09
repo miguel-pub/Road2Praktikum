@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="edac5393-cfdd-4bc0-872c-f9906c391181" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/LessonOne/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LessonOne/docker-compose.debug.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LessonOne/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PythonRestAPI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PythonRestAPI.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LessonOne/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/LessonOne/app.py" afterDir="false" />
-    </list>
+    <list default="true" id="edac5393-cfdd-4bc0-872c-f9906c391181" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
