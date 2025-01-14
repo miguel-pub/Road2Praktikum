@@ -59,6 +59,7 @@
 //     document.getElementById("myH1").textContent = `Hello ${username}`;
 // }
 
+<<<<<<< HEAD
 // let age = window.prompt("How old are you!")
 // age = Number(age)
 // age+=1
@@ -75,3 +76,6 @@ document.getElementById("mySubmit").onclick = function(){
     document.getElementById("myH3").textContent = circumference;
     console.log(circumference)
 }
+=======
+console.log("test")
+>>>>>>> f32609d2ae9e3324da18490e4f3054d7c5ddb38f
