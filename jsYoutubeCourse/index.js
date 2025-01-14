@@ -59,3 +59,19 @@
 //     document.getElementById("myH1").textContent = `Hello ${username}`;
 // }
 
+// let age = window.prompt("How old are you!")
+// age = Number(age)
+// age+=1
+// console.log(age, typeof age)
+
+const pi = 3.14159
+let radius;
+let circumference;
+
+document.getElementById("mySubmit").onclick = function(){
+    radius = document.getElementById("myText").value;
+    radius = Number(radius);
+    circumference = 2 * pi * radius;
+    document.getElementById("myH3").textContent = circumference;
+    console.log(circumference)
+}
