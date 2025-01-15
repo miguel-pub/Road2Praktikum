@@ -59,23 +59,49 @@
 //     document.getElementById("myH1").textContent = `Hello ${username}`;
 // }
 
-<<<<<<< HEAD
 // let age = window.prompt("How old are you!")
 // age = Number(age)
 // age+=1
 // console.log(age, typeof age)
 
-const pi = 3.14159
-let radius;
-let circumference;
 
-document.getElementById("mySubmit").onclick = function(){
-    radius = document.getElementById("myText").value;
-    radius = Number(radius);
-    circumference = 2 * pi * radius;
-    document.getElementById("myH3").textContent = circumference;
-    console.log(circumference)
+// my idea
+// let digit = Number(document.getElementById("countLabel").textContent)
+
+// document.getElementById("decreaseBtn").onclick = function(){
+//     digit -= 1
+//     document.getElementById("countLabel").textContent = digit
+// }
+
+// document.getElementById("increaseBtn").onclick = function(){
+//     digit += 1
+//     document.getElementById("countLabel").textContent = digit
+// }
+
+// document.getElementById("resetBtn").onclick = function(){
+//     digit = 0
+//     document.getElementById("countLabel").textContent = digit
+// }
+
+// video idea:
+
+const decreaseBtn = document.getElementById("decreaseBtn");
+const resetBtn = document.getElementById("resetBtn");
+const increaseBtn = document.getElementById("increaseBtn");
+const countLabel = document.getElementById("countLabel");
+let count = 0;
+
+decreaseBtn.onclick = function(){
+    count--;
+    countLabel.textContent = count;
 }
-=======
-console.log("test")
->>>>>>> f32609d2ae9e3324da18490e4f3054d7c5ddb38f
+
+increaseBtn.onclick = function(){
+    count++;
+    countLabel.textContent = count;
+}
+
+resetBtn.onclick = function(){
+    count = 0;
+    countLabel.textContent = count;
+}
